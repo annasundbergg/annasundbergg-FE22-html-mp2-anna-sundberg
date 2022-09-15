@@ -1,0 +1,161 @@
+body{
+    font-family: Tahoma, sans-serif;
+}
+
+header{
+    position: sticky;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #f3e8de;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+nav{
+    display: flex;
+    flex-flow: column wrap;
+    position: fixed;
+    top: 100px; left: 50px;
+    gap: 20px;
+    font-weight: bolder;
+}
+
+h1{
+    font-size: 60px;
+    color: rgb(51 57 51 / 1);
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    font-size: 40px;
+    color: rgb(51 57 51 / 1);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.text-start{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    margin-top: 20px;
+    height: 500px;
+    font-size: 15px;
+}
+
+.p_one{
+    width: 300px;
+    align-self: center;
+}
+
+.p_two{
+    width: 300px;
+    align-self: center;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    background-color: #f3e8de;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ 
+.menu-container{ 
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: repeat(6, 120px);
+    text-align: center;
+}
+
+.m1{
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+}
+
+.m2{
+    grid-row: 2 / 3;
+    grid-column: 4 / 6;
+}
+
+.m3{
+    margin-top: 40px;
+    grid-row: 3 / 4;
+    grid-column: 2 / 4;
+}
+
+.m4{
+    margin-top: 40px;
+    grid-row: 3 / 4;
+    grid-column: 4 / 6;
+}
+
+.m5{
+    margin-top: 80px;
+    grid-row: 4 / 5;
+    grid-column: 3 / 5; 
+}
+
+h4{
+    font-size: 25px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.menu_type{
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu_price{
+    font-size: 13px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: repeat(8, 80px);
+    grid-row-gap: 5px;
+} 
+
+.name{
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.last-name{
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.date{
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.time{
+    grid-row: 5;
+    grid-column: 3;
+}
+
+.textarea{
+    grid-row: 6 / 7;
+    grid-column: 3;
+    width: 100%;
+    resize: none;
+}
+
+#button{
+    grid-row: 7;
+    grid-column: 3;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+}
